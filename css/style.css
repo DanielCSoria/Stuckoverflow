@@ -1,0 +1,377 @@
+
+.row{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper_post{
+	display:flex;
+  flex-direction: column;
+  width: 95%;
+  margin:auto;
+  margin-bottom: 20px;
+   border-width: 2px 0px 0px 0px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.2);
+}
+.wrapper_post:nth-child(1){
+	border:none;
+	width: 100%;
+}
+#validate_answ{
+  margin-top: 10px;
+  color:green;
+}
+.delete_button{
+  color:black;
+
+  margin-right:5px;
+  margin-bottom: 5px;
+  display:flex;
+  align-self: flex-start;
+}
+h3{
+	margin-bottom:5px;
+	margin-top: 10px;
+}
+.post_answer{
+	display:flex;
+	padding:5px;
+}
+.wrapper{
+	width:85%;
+}
+.time_info{
+	margin-bottom: 2%;
+        margin-right: 10px;
+}
+body {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullW{
+  width:100% !important;
+}
+img{
+  width:100%;
+  max-width:600px;
+}
+.body_answer{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+  margin:auto;
+  text-align: center;
+  	font-family: "Verdana";
+  	margin-left:25px;
+  	font-weight: normal;
+    margin-bottom : 30px;
+}
+.downvote_button, .upvote_button{
+  border:none;
+  background-color: rgba(0,0,0,0);
+  margin: 15%;
+  margin-left:5px;
+  color:black;
+}
+.downvote_button:hover{
+	color:red;
+ }
+ .upvote_button:hover{
+	color:green;
+ }
+
+.info_vote{
+	margin:0;
+}
+
+p{
+	font-family: "Verdana";
+  color : rgba(0,0,0,0.5);
+  font-size: 13px;
+}
+ul{
+  display:flex;
+  flex-direction: column;
+}
+.text_info{
+  margin-bottom:0;
+}
+.header{
+    width: 100%;
+    margin-bottom: 3%;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 20%;
+    margin-left: 20px;
+    margin-top: 15px;
+    vertical-align: middle;
+    font-family: 'helvetica';
+    font-size: 22px;
+}
+.navigation a:hover{
+  color:rgba(0,0,0,0.3);
+}
+.unform{
+  display:flex;
+}
+.navigation a{
+    height: 100%;
+    padding: 0px 20px;
+    float: left;
+    color:white;
+    font-family: "Verdana";
+    display: table;
+    font-size: 16px;
+    
+}
+
+.post_bottom{
+  padding-bottom: 10px;
+  margin-bottom:10px; 
+  align-items:center;
+  align-self:flex-start;
+}
+.errors {
+    color: red;
+}
+.errors ul{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  font-family: "Verdana";
+  margin:10px;
+}
+.confirm_wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:40%;
+    border : 2px solid rgba(0,0,0,0.1);
+    border-radius:5px;
+}
+.confirm_buttons{
+    display:flex;
+    justify-content:space-between;
+    width: 45%;
+    margin-top:10px;
+}
+#logo{
+    color: rgba(240, 52, 52, 0.6);
+    margin:10px;
+}
+
+.confirm_title{
+    border-width : 0px 0px 2px 0px;
+    border-style:solid;
+    border-color:rgba(0,0,0,0.1);
+    padding-bottom:5px;
+    width: 98%;
+    font-family:"Verdana";
+    color: rgba(240, 52, 52, 0.6);
+    text-align:center;
+    font-size: 20px;
+}
+.confirm_btn:nth-child(1){
+  background-color: rgba(0,0,0,0.5);
+}
+.confirm_btn:nth-child(1):hover{
+  background-color: rgba(15, 190, 44, 0.5);
+}
+.confirm_btn {
+    background-color:#e4685d;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:15px;
+    padding:6px 15px;
+    text-decoration:none;
+}
+.accept_btn {
+  background-color :rgba(30, 143, 255, 0.836);
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:15px;
+  padding:6px 15px;
+  text-decoration:none;
+}
+.links{
+  display:flex;
+  width:70%;
+  margin-bottom: 1.5%;
+  position:relative;
+
+}
+.resize{
+  width : 75%;
+}
+.test:hover{
+  color:rgba(0,0,0,0.3);
+}
+.form_comment{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:5px;
+  width:100%;
+
+}
+.spec{
+  overflow-wrap: break-word;
+  
+}
+
+
+.search_box{
+  display:flex;
+  height:30px;
+  width:25%;
+  align-items: center;
+  align-self: center;
+  position:absolute;
+  right:0;
+}
+
+#search:hover{
+  color:rgba(36, 131, 226, 0.514);
+}
+#search{
+  border:none;
+  background-color: rgba(0,0,0,0.3);
+  margin: 15%;
+  margin-left: 0px;
+  padding: 5px;
+  height:25px;
+  width:25px;
+}
+
+.comment{
+
+  overflow:auto;
+  padding:15px;
+  height:150px;
+  margin:auto;
+  width:100%;
+  border-radius:5px;
+  border-width:1px;
+  border-color:rgba(0,0,0,0.3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:13px;
+  resize:none;
+  align-self: center;
+  overflow: scroll;
+}
+.comment_btn{
+  align-self: flex-start;
+  width:15%;
+}
+.test{
+  font-family: "Verdana";
+  font-size:14px;
+  font-weight: bold;
+  color:dodgerblue;
+  padding:14px;
+}
+.green_color{
+  color:green;
+}
+.red_color{
+  color:red;
+}
+#green_color:hover{
+    color: dodgerblue;
+}
+#red_color:hover{
+    color: dodgerblue;
+}
+.confirm_btn:hover {
+    background-color:#ff0606a1;
+}
+accept_btn:hover {
+  background-color:#27cbd1ad;
+}
+.confirm_title{
+    border-width : 0px 0px 2px 0px;
+    border-style:solid;
+    border-color:rgba(0,0,0,0.1);
+    padding-bottom:5px;
+    width: 98%;
+    font-family:"Verdana";
+    color: rgba(0,0,0,0.6);
+    text-align:center;
+    font-size: 20px;
+    font-weight:normal;
+}
+button{
+    margin-bottom:10px;
+}
+.title_link{
+  font-size: 15;
+  margin-top: 10px;
+  color: rgba(30,144,255 , 1);
+  font-family: "Verdana";
+}
+.special_link{
+  font-size: 12;
+  margin-top: 10px;
+  color: rgba(30,144,255 , 1);
+  font-family: "Verdana";
+}
+.post_frame h3{
+  font-size: 15;
+  margin-bottom: 0px;
+  font-family: "Verdana";
+  font-weight: normal;
+}
+.title_link:hover, .special_link:hover{
+  color: rgba(0,0,0 , 0.2);
+}
+
+.post_frame{
+  width:70%;
+  margin:auto;
+  border-width : 0px 0px 2px 0px;
+  border-style:solid;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-color : rgba(0,0,0,0.2);
+}

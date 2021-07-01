@@ -1,0 +1,245 @@
+
+
+ 
+.lessWidth{
+	width : 100% !important;
+}
+#navBarSearchForm{
+	height : 10px !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(0,0,0,0.2);
+}
+.resize{
+	width : 90%;
+}
+.white{
+	background-color:white;
+}
+
+.reduce{
+	width:20%;
+}
+
+.noflex{
+	flex-direction: column;
+}
+.post_container{
+	width: 97%;
+	padding-top:0;
+	background-color: rgba(255,255,255,1);
+}
+.row_size{
+    background-color: white;
+
+}
+.comments{
+	width:80%;
+	margin:auto;
+}
+.wrapper{
+	margin:auto;
+}
+.butt{
+	width: 10%;
+}
+.dgb{
+	color:dodgerblue;
+}
+
+.post_view_content{
+	color:gray;
+	font-size: 15px;
+}
+
+body{
+	padding-top : 70px;
+
+}
+.alert_title{
+	font-size: 19px;
+}
+.top_buffer{
+	margin-top:20px;
+}
+
+.bottom_buffer
+{
+	margin-bottom: 20px;
+}
+.no_buff{
+	margin:0;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+
+}
+.bg{
+	  /* The image used */
+  background-image: url("vectorpaint(3).svg");
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+    font-weight: bold;
+}
+.input-group-text{
+	background-color: rgba(30,144,255 , 0.4);
+}
+.dodgerb{
+	background-color: dodgerblue;
+}
+.border-bottom{
+	border-color : rgba(0,0,0,0.3) !important;
+}
+.confirm_box{
+	width: 35%;
+	background-color: rgba(255,255,255,.9);
+}
+.delete{
+	color:rgba(240,128,128,1);
+}
+
+.buff
+{
+	margin-top: 8px;
+	margin-left: 15px;
+}
+.right_buffer{
+	text-align: center;
+	justify-content: center;
+	margin-right: 2%;
+}
+.text-left{
+	display:flex;
+	flex-direction: column;
+}
+
+.thisone{
+	background-color: tomato;
+}
+.inviss{
+	background-color: rgba(255,255,255,0.3);
+	
+}
+.unactive{
+	background-color:rgba(255,255,255,0.7);
+}
+
+blockquote{
+	background-color:rgba(128, 128, 128, 0.061);
+	display:inline-block;
+	margin:auto;
+	margin-bottom: 5px;
+	padding:3px;
+	padding-left:10px;
+	border : 1px rgba(128, 128, 128, 0.007) outset;
+	border-radius: 2px;
+}
+
+.link_button {
+	background: none!important;
+	border: none;
+	padding: 0!important;
+	/*optional*/
+	font-family: arial, sans-serif;
+	/*input has OS specific font-family*/
+	color: #069;
+	border : 1px  #069 solid;
+	border-width : 0px 0px 1px 0px;
+	text-decoration: underline;
+	cursor: pointer;
+  }
+  .dnone{
+	display: none;
+  }
+
+  .opa{
+	  background-color:rgba(0,0,0,0);
+  }
+ .dd{
+	 text-decoration: underline;
+ }
+  .mini{
+	height:30px;
+}
+.db{
+	background-color: rgba(30,144,255 , .9);
+	padding : 14px;
+	padding-top:0px;
+}
+
+
+
+.modal {
+	margin-top:10%;
+  }
+
+.db{
+	background-color: rgba(30,144,255 , .7);
+}
+
+
+.mini{
+	height:30px;
+}
+.max_width{
+	width: 600px;
+}
+	
+
+
+.special_link{
+	text-decoration: none;
+	font-weight: bold;
+	color:dodgerblue;
+	font-size: 13px;
+}
+.special_link:hover{
+	text-decoration: none;
+	color:rgba(0,0,0,0.2);
+}
+
+.menu {
+    font-size: 17px;
+    color:white;
+}
+.menu:hover{
+	color: rgba(0,0,0,0.2);
+}
+.input-group-addon{
+	background-color: rgba(30,144,255 , 0.2);
+}
+.red{
+	background-color: rgba(240,128,128,0.5);
+}
+.invi{
+    background-color: rgba(255,255,255,0.6);
+    width: 90%;
+}
+.navbar{
+	background-color: rgba(30,144,255 , .9);
+	text-align: center;
+}
+
+
+
+label.error {
+    color: #d9534f;
+    font-size: 10pt;
+    margin-left: 2%;
+}
+
+
+
